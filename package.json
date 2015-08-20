@@ -1,0 +1,23 @@
+{
+  "name": "spark",
+  "version": "1.0.0",
+  "description": "Experimental JSON event store.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/basp/spark"
+  },
+  "author": "basp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/basp/spark/issues"
+  },
+  "homepage": "https://github.com/basp/spark",
+  "dependencies": {
+    "JSONStream": "^1.0.4",
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "leveldown": "^1.4.0",
+    "levelup": "^1.2.1"
+  }
+}
