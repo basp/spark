@@ -10,3 +10,4 @@
 /// <reference path="moment/moment.d.ts" />
 /// <reference path="node-uuid/node-uuid.d.ts" />
 /// <reference path="gulp/gulp.d.ts" />
+/// <reference path="jasmine/jasmine.d.ts" />

@@ -37,6 +37,9 @@
     },
     "gulp/gulp.d.ts": {
       "commit": "38fb591c6eba840e0b53d1110302b8e4fb04651c"
+    },
+    "jasmine/jasmine.d.ts": {
+      "commit": "38fb591c6eba840e0b53d1110302b8e4fb04651c"
     }
   }
 }
