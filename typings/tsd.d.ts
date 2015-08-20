@@ -1,4 +1,4 @@
-
+/// <reference path="merge/merge.d.ts" />
 /// <reference path="express/express.d.ts" />
 /// <reference path="mime/mime.d.ts" />
 /// <reference path="node/node.d.ts" />
@@ -6,3 +6,5 @@
 /// <reference path="JSONStream/JSONStream.d.ts" />
 /// <reference path="body-parser/body-parser.d.ts" />
 /// <reference path="levelup/levelup.d.ts" />
+/// <reference path="moment/moment-node.d.ts" />
+/// <reference path="moment/moment.d.ts" />

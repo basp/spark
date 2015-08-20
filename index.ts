@@ -3,8 +3,8 @@
 import express = require('express');
 import bodyParser = require('body-parser');
 import levelup = require('levelup');
-
-var JSONStream = require('JSONStream');
+import JSONStream = require('JSONStream');
+import moment = require('moment');
 
 var db = levelup('./data', {
 	valueEncoding: 'json'
@@ -25,7 +25,7 @@ app.get('/api/events/:collection', (req, res) => {
 });
 
 app.post('/api/events/:collection', (req, res) => {
-	let key = 'foo';
+	let key = req.params.collection + '-' + moment().format('x');
 	db.put(key, req.body, (err) => {
 		if (err) return res.json({ created: false, error: err });
 		res.json({ created: true });

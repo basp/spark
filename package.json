@@ -18,6 +18,8 @@
     "body-parser": "^1.13.3",
     "express": "^4.13.3",
     "leveldown": "^1.4.0",
-    "levelup": "^1.2.1"
+    "levelup": "^1.2.1",
+    "merge": "^1.2.0",
+    "moment": "^2.10.6"
   }
 }
