@@ -8,3 +8,5 @@
 /// <reference path="levelup/levelup.d.ts" />
 /// <reference path="moment/moment-node.d.ts" />
 /// <reference path="moment/moment.d.ts" />
+/// <reference path="node-uuid/node-uuid.d.ts" />
+/// <reference path="gulp/gulp.d.ts" />

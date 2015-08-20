@@ -6,6 +6,7 @@ import levelup = require('levelup');
 import JSONStream = require('JSONStream');
 import merge = require('merge');
 import moment = require('moment');
+import uuid = require('node-uuid');
 
 var db = levelup('./data', {
 	valueEncoding: 'json'
@@ -30,6 +31,7 @@ app.post('/api/events/:collection', (req, res) => {
 	let key = req.params.collection + '-' + moment().format('x');
 	let v = merge.recursive(req.body, {
 		spark: {
+			id: uuid.v4(),
 			collection: req.params.collection,
 			timestamp: moment().format('x')
 		}	
